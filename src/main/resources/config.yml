@@ -1,0 +1,51 @@
+##########
+## INFO ##
+##########
+
+# You are able to toggle items on or off, as well as defining the minimum item required to break the set of items.
+
+# In order to change the tool used put the lowest tier followed by the material, for example if you want a diamond or netherite axe, put "diamond axe".
+# The tier order goes : [wooden, stone, gold, iron, diamond, netherite]. Note, netherite will not work in versions before 1.16.
+
+# Silk touch is required to obtain every item using this plugin.
+# To do ANY item with silk touch just put "any" in the tool section.
+
+#The Player Head cannot be obtained by mining, so it does not have a tool section. Instead, this will be obtainable if a player is killed by a charged creeper.
+
+
+############
+## Config ##
+############
+
+
+dirt_variants: #dirt_path, farmland
+  enable: True
+  tool: wooden shovel
+
+spawners: #spawner, trial_spawner, vault
+  enable: True
+  tool: diamond pickaxe
+
+infested_stones: #infested_stone, infested_cobblestone, infested_deepslate, infested_stone_bricks, infested_mossy_stone_bricks, infested_cracked_stone_bricks, infested_chiseled_stone_bricks
+  enable: True
+  tool: iron pickaxe
+
+suspicious_blocks: #suspicious_sand, suspicious_gravel
+  enable: True
+  tool: stone shovel
+
+reinforced_deepslate: #reinforced_deepslate
+  enable: True
+  tool: netherite pickaxe
+
+amethyst: #budding_amethyst
+  enable: True
+  tool: diamond pickaxe
+
+chorus_plant: #chorus_plant
+  enable: True
+  tool: any
+
+frog_eggs: #frogspawn
+  enable: True
+  tool: any

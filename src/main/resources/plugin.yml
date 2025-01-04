@@ -1,0 +1,13 @@
+name: Unobtainable_Items
+version: '1.0-SNAPSHOT'
+main: xyz.quazaros.main
+api-version: '1.20'
+commands:
+  itemsettings:
+    description: An admin command that lists the items that are active/deactive on the plugin.
+    usage: /itemsettings
+    permission: unobtainable_items.admin
+Permissions:
+  unobtainable_items.admin:
+    description: Will allow players to access the admin commands
+    default: op
